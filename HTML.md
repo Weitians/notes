@@ -1,6 +1,4 @@
-
-### &lt;head&gt;&lt;/head&gt; 内标签: 
-***
+## &lt;head&gt;&lt;/head&gt; 内标签: 
 #### **&lt;link/&gt; : 放在&lt;head&gt;内，用于链接样式表，引入样式文件。**
 
 	• rel：当前文档与被链接文档的类型。
