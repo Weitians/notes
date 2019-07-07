@@ -163,20 +163,18 @@
 	
 	• Canvas 实例2：通过指定从何处开始，在何处结束，来绘制一条线：
 	
-		><canvas id="sb" width="200px" height="200px" style="border: 1px solid #111">
-			        您的浏览器不支持canvas标签。
-		</canvas>
+		<canvas id="sb" width="200px" height="200px" style="border: 1px solid #111">您的浏览器不支持canvas标签。</canvas>
 		
-		    ><script type="text/javascript">
+		    <script type="text/javascript">
 		        var can = document.getElementById("sb");
 		        var con = can.getContext("2d");
 		        con.moveTo(0, 0);
-		// context.moveTo(x,y) ：方法可以将子路径的起点位置移动到指定位置；
+			// context.moveTo(x,y) ：方法可以将子路径的起点位置移动到指定位置；
 		        con.lineTo(50, 50);
 		        con.lineTo(100, 50);
-		//context.lineTo(x,y)：添加一个新点，然后创建从该点到画布中最后指定点的线条；
+			//context.lineTo(x,y)：添加一个新点，然后创建从该点到画布中最后指定点的线条；
 		        con.stroke();
-		//stroke() 方法：会实际地绘制出通过 moveTo() 和 lineTo() 方法定义的路径。默认颜色是黑色。
+			//stroke() 方法：会实际地绘制出通过 moveTo() 和 lineTo() 方法定义的路径。默认颜色是黑色。
 		    </script>
 		
 	• Canvas 实例3：通过规定尺寸、颜色和位置，来绘制一个圆：
