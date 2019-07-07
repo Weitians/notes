@@ -187,13 +187,13 @@
 		        var can = document.getElementById("sb");
 		        var con = can.getContext("2d");
 		        con.beginPath();
-		//beginPath() 方法开始一条路径，或重置当前的路径
+			//beginPath() 方法开始一条路径，或重置当前的路径
 		        con.arc(100, 100, 100, 0 * Math.PI, Math.PI * 2);
-		//arc() 方法创建弧/曲线（用于创建圆或部分圆），如需通过 arc() 来创建圆，请把起始角设置为 0，结束角设置为 2*Math.PI。
+			//arc() 方法创建弧/曲线（用于创建圆或部分圆），如需通过 arc() 来创建圆，请把起始角设置为 0，结束角设置为 2*Math.PI。
 		        con.closePath();
-		//closePath() 方法创建从当前点到开始点的路径。
+			//closePath() 方法创建从当前点到开始点的路径。
 		        con.stroke();
-		//stroke() 方法会实际地绘制出路径，
+			//stroke() 方法会实际地绘制出路径，
 		    </script>
 		
 		context.arc(x,y,r,sAngle,eAngle,counterclockwise);
@@ -646,7 +646,7 @@
 			Ø formmethod - 重写表单的 method 属性
 			Ø formnovalidate - 重写表单的 novalidate 属性
 			Ø formtarget - 重写表单的 target 属性
-			><form action="*" method="get">
+			<form action="*" method="get">
 			        <input type="email" placeholder="邮箱地址" name="user_email"><br />
 			        <input type="submit" value="提交"><br/>
 			        <input type="submit" formaction="*" value="再次提交"><br />
