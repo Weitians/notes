@@ -179,9 +179,6 @@
 		//stroke() 方法：会实际地绘制出通过 moveTo() 和 lineTo() 方法定义的路径。默认颜色是黑色。
 		    </script>
 		
-![canvas][github]
-[github]: https://github.com/Weitians/notes/blob/master/imges/canvas_2.PNG
-		
 	• Canvas 实例3：通过规定尺寸、颜色和位置，来绘制一个圆：
 	
 		- <canvas id="sb" width="200px" height="200px" style="border: 1px solid #111">
@@ -265,7 +262,7 @@
 				    </script>
 				
 				
-##### &lt;svg&gt;&lt;/svg&gt; # SVG入门教程 # SVG基础教程 #
+##### &lt;svg&gt;&lt;/svg&gt; [#SVG入门教程#](http://www.ruanyifeng.com/blog/2018/08/svg.html) [#SVG基础教程#](https://segmentfault.com/a/1190000012071386)
 
 	• SVG 指可伸缩矢量图形 (Scalable Vector Graphics)；属于对图像的形状描述，本质上是文本文件，体积较小，且不管放大多少倍都不会失真。
 	• SVG 用于定义用于网络的基于矢量的图形；
@@ -344,7 +341,7 @@
 			Ø Z = closepath
 			Ø 以上所有命令均允许小写字母。大写表示绝对定位，小写表示相对定位。
 		
-##### SVG滤镜：# 滤镜详解 #
+##### SVG滤镜：[#滤镜详解#](https://blog.csdn.net/e26hcs/article/details/48435777)
 
 	• 简单的 SVG 实例 ：
 	
@@ -364,7 +361,7 @@
 		type：定义嵌入内容的类型。
 		width：设置嵌入内容的宽度。
 		
-##### 地理位置：getCurrentPosition（）# 详细介绍 #
+##### 地理位置：getCurrentPosition（）[#详细介绍#](https://www.haorooms.com/post/html5_GPS_getCurrentPosition)
 
 	• getCurrentPosition(successCallback,errorCallback,positionOptions);
 	
