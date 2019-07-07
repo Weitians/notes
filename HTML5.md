@@ -5,7 +5,7 @@
 	• 新的特殊内容元素，比如 article（文章）、footer、header、nav、section;
 	• 新的表单控件，比如 calendar（日历，日程表）、date、time、email、url、search;
 
-<video></video>
+##### &lt;video&gt;&lt;/video&gt;
 	• 当前，video 元素支持三种视频格式：
 		- Ogg = 带有 Theora 视频编码和 Vorbis 音频编码的 Ogg 文件；
 		- MPEG4 = 带有 H.264 视频编码和 AAC 音频编码的 MPEG 4 文件；
@@ -23,7 +23,7 @@
 		        您的浏览器不支持该视频标签。
 		    </video>
 		
-<audio></audio>
+##### &lt;audio&gt;&lt;/audio&gt;
 	• 当前，audio 元素支持三种音频格式;
 		- Gog Orbis 
 		- MP3
@@ -38,7 +38,7 @@
 		        您的浏览器不支持该音频标签。
 		    </audio>
 		
-drag and drop：#拖动事件# 即抓取对象以后拖到另一个位置，在 HTML5 中任何元素都能够拖放。
+##### drag and drop：#拖动事件# 即抓取对象以后拖到另一个位置，在 HTML5 中任何元素都能够拖放。
 	• 具体包括 ①开始拖拽：dragstart事件，②拖拽进入：dragenter事件，③拖拽离开：dragleave事件，④拖拽经过：dragover事件，⑤拖拽释放：drop事件，⑥拖拽结束：dragend事件。
 
 	• draggable属性：设置元素是否可拖动；
@@ -100,7 +100,7 @@ drag and drop：#拖动事件# 即抓取对象以后拖到另一个位置，在 
 		    <img id="drag1" src="../images/upicon-72-72-190408.png" draggable="true" ondragstart="drag(event)" />
 		</body>
 
-<canvas></canvas>
+##### &lt;canvas&gt;&lt;/canvas&gt;
 	• Canvas 画布是一个矩形区域，您可以控制其每一像素，元素本身是没有绘图能力的，所有的绘制工作必须在 JavaScript 内部完成；
 	
 	• Canvas 实例1：使用指定的颜色来绘制渐变背景：
@@ -256,7 +256,7 @@ drag and drop：#拖动事件# 即抓取对象以后拖到另一个位置，在 
 				    </script>
 				
 				
-<svg></svg> # SVG入门教程 # SVG基础教程 #
+##### &lt;svg&gt;&lt;/svg&gt; # SVG入门教程 # SVG基础教程 #
 
 描述：
 	• SVG 指可伸缩矢量图形 (Scalable Vector Graphics)；属于对图像的形状描述，本质上是文本文件，体积较小，且不管放大多少倍都不会失真。
@@ -272,7 +272,7 @@ drag and drop：#拖动事件# 即抓取对象以后拖到另一个位置，在 
 	• SVG 图像可在任何的分辨率下被高质量地打印；
 	• SVG 可在图像质量不下降的情况下被放大；
 	
-SVG形状：
+##### SVG形状：
 	• 矩形 <rect>:
 		<svg width="100%" height="100%" version="1.1" xmlns="http://www.w3.org/2000/svg">
 		    <rect  x="20" y="20" rx="20" ry="20" width="400" height="200" style="fill:red; stroke-width:5; stroke:black;fill-opacity:0.5; stroke-opacity:1" />
@@ -337,7 +337,7 @@ SVG形状：
 			Ø Z = closepath
 			Ø 以上所有命令均允许小写字母。大写表示绝对定位，小写表示相对定位。
 		
-SVG滤镜：# 滤镜详解 #？？？？？
+##### SVG滤镜：# 滤镜详解 #？？？？？
 
 		- 简单的 SVG 实例 ：
 	
@@ -357,7 +357,7 @@ SVG滤镜：# 滤镜详解 #？？？？？
 		type：定义嵌入内容的类型。
 		width：设置嵌入内容的宽度。
 		
-地理位置：getCurrentPosition（）# 详细介绍 #
+##### 地理位置：getCurrentPosition（）# 详细介绍 #
 
 	• getCurrentPosition(successCallback,errorCallback,positionOptions);
 	
@@ -420,7 +420,7 @@ SVG滤镜：# 滤镜详解 #？？？？？
 		    </form>
 		</body>
 		
-web存储：HTML5 使用 JavaScript 来存储和访问数据。
+##### web存储：HTML5 使用 JavaScript 来存储和访问数据。
 
 	• localStorage ：没有时间限制的数据存储；
 		- localStorage.setItem('myCat', 'Tom');
@@ -469,7 +469,7 @@ web存储：HTML5 使用 JavaScript 来存储和访问数据。
 		        }
 		    </script>
 		
-应用程序缓存（Application Cache）
+##### 应用程序缓存（Application Cache）
 
 	• 每个指定了 manifest 的页面在用户对其访问时都会被缓存。如果未指定 manifest 属性，则页面不会被缓存（除非在 manifest 文件中直接指定了该页面），manifest 文件的建议的文件扩展名是：".appcache"，请注意，manifest 文件需要配置正确的 MIME-type，即 "text/cache-manifest"，必须在 web 服务器上进行配置。
 
@@ -517,7 +517,7 @@ web存储：HTML5 使用 JavaScript 来存储和访问数据。
 		/html5/ /404.html
 		//以 "#" 开头的是注释行，但也可满足其他用途。应用的缓存会在其 manifest 文件更改时被更新。如果您编辑了一幅图片，或者修改了一个 JavaScript 函数，这些改变都不会被重新缓存。更新注释行中的日期和版本号是一种使浏览器重新缓存文件的办法。
 		
-HTML5表单<Input>新类型：
+##### HTML5表单<Input>新类型：
 
 	• Email：用于应该包含 e-mail 地址的输入域。
 		 <form action="*">
@@ -578,7 +578,7 @@ HTML5表单<Input>新类型：
 		        <input type="submit">
 		    </form>
 
-HTML5表单新元素：
+##### HTML5表单新元素：
 		- Datalist ：规定输入域的选项列表。
 			  <form action="">
 			        <input type="email" list="email_lisk" placeholder="请输入邮箱地址">
@@ -600,7 +600,7 @@ HTML5表单新元素：
 			
 		- Output ：用于不同类型的输出，比如计算或脚本输出。
 		
-HTML5表单<form>新属性：
+##### HTML5表单<form>新属性：
 		- Autocomplete ：自动完成功能，第二次输入时弹出曾经输入过的选项，适用于 <form> 标签，以及以下类型的 <input> 标签：text, search, url, telephone, email, password, datepickers, range 以及 color。
 			  <form action="*" method="get" autocomplete="on">
 			        First name:<input type="text" name="fname" /><br />
@@ -615,7 +615,7 @@ HTML5表单<form>新属性：
 			        <input type="submit" />
 			    </form>
 		
-HTML5表单<input>新属性：
+##### HTML5表单<input>新属性：
 		- Autocomplete ：自动完成功能，第二次输入时弹出曾经输入过的选项，适用于text, search, url, telephone, email, password, datepickers, range 以及 color。
 			  <form action="*" method="get" autocomplete="on">
 			        First name:<input type="text" name="fname" /><br />
