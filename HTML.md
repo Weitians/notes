@@ -218,7 +218,7 @@
 </form>
 
 
-	- <form>下拉选择框，<select></select>；
+	• <form>下拉选择框，<select></select>；
 		- option：定义下拉框中的选择项；
 			- value：option的值；
 			- selected：值也为selected，初始选项中的选项；
