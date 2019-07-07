@@ -107,9 +107,11 @@
 		</body>
 
 ##### &lt;canvas&gt;&lt;/canvas&gt;
-• Canvas 画布是一个矩形区域，您可以控制其每一像素，元素本身是没有绘图能力的，所有的绘制工作必须在 JavaScript 内部完成；
-• Canvas 实例1：使用指定的颜色来绘制渐变背景：
-><canvas id="sb" width="200" height="100"></canvas>
+		• Canvas 画布是一个矩形区域，您可以控制其每一像素，元素本身是没有绘图能力的，所有的绘制工作必须在 JavaScript 内部完成；
+		
+		• Canvas 实例1：使用指定的颜色来绘制渐变背景：
+		
+			<canvas id="sb" width="200" height="100"></canvas>
 		
 		Ø 纯色效果：
 		    <script type="text/javascript">
@@ -161,11 +163,11 @@
 	
 	• Canvas 实例2：通过指定从何处开始，在何处结束，来绘制一条线：
 	
-		- <canvas id="sb" width="200px" height="200px" style="border: 1px solid #111">
+		><canvas id="sb" width="200px" height="200px" style="border: 1px solid #111">
 			        您的浏览器不支持canvas标签。
 		</canvas>
 		
-		    <script type="text/javascript">
+		    ><script type="text/javascript">
 		        var can = document.getElementById("sb");
 		        var con = can.getContext("2d");
 		        con.moveTo(0, 0);
@@ -176,7 +178,6 @@
 		        con.stroke();
 		//stroke() 方法：会实际地绘制出通过 moveTo() 和 lineTo() 方法定义的路径。默认颜色是黑色。
 		    </script>
-![canvas](https://github.com/Weitians/notes/blob/master/imges/canvas_2.PNG)
 		
 	• Canvas 实例3：通过规定尺寸、颜色和位置，来绘制一个圆：
 	
