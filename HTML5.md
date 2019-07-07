@@ -74,7 +74,7 @@
 	• getElementById() 方法：可返回对拥有指定 ID 的第一个对象的引用。
 	• appendChild() 方法向节点添加最后一个子节点，也可用于从一个元素向另一个元素中移动元素。
 	
-		><head>
+		<head>
 		    <style type="text/css">
 		        #div1 {
 		            width: 300px;
@@ -163,7 +163,9 @@
 	
 	• Canvas 实例2：通过指定从何处开始，在何处结束，来绘制一条线：
 	
-		<canvas id="sb" width="200px" height="200px" style="border: 1px solid #111">您的浏览器不支持canvas标签。</canvas>
+		<canvas id="sb" width="200px" height="200px" style="border: 1px solid #111">
+			您的浏览器不支持canvas标签。
+		</canvas>
 		
 		    <script type="text/javascript">
 		        var can = document.getElementById("sb");
