@@ -71,12 +71,7 @@
     <div>今天超市<span style="color: red">大减价</span>,快去给林北买榴莲!</div>
 </body>
 
-块级（block）内联（inline)
-|-------------|--------------|
-
-》》》内联元素用于块级元素内，不能表示完整的区块，只是区块内的一小部分 》》》
-
-<a></a>:定义一个超链接；
+##### &lt;a&gt;&lt;/a&gt; : 定义一个超链接；
 
 	• 必选属性：href；链接到目标网站；
 	• 选填属性：
@@ -88,7 +83,7 @@
 	    <a href="https://www.baidu.com" target="_blank" title="baidu">百度一下</a>
 	</body>
 	
-<img/>:在网页中嵌入图片；
+##### &lt;img/&gt; : 在网页中嵌入图片；
 
 	• 必填属性:
 		- src:图片的 url；
@@ -97,7 +92,7 @@
 		- width：图片宽度；
 		- height：图片高度；
 
-<ul></ul>:无序列表，<li>为其列表项；
+##### &lt;ul&gt;&lt;/ul&gt; : 无序列表，&lt;li&gt;为其列表项；
 
 <body>
     <ul>
@@ -109,7 +104,7 @@
     </ul>
 </body>
 
-<ol></ol>:有序列表，<li>为其列表项；
+##### &lt;ol&gt;&lt;/ol&gt;:  有序列表，&lt;li&gt;为其列表项；
 
 <body>
     <ol>
@@ -121,7 +116,7 @@
     </ol>
 </body>
 
-<table></table>:表格标签，<th>为表头、<tr>为行、<td>为列，每一行必须相同列数；
+##### &lt;table&gt;&lt;/table&gt; : 表格标签，&lt;th&gt;为表头、&lt;tr&gt;为行、&lt;td&gt;为列，每一行必须相同列数；
 
 <body>
     <table border="1">
