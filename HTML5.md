@@ -39,7 +39,13 @@
 		    </audio>
 		
 ##### drag and drop：[#拖动事件#](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API#Drag_Events) 即抓取对象以后拖到另一个位置，在 HTML5 中任何元素都能够拖放。
-	• 具体包括 ①开始拖拽：dragstart事件，②拖拽进入：dragenter事件，③拖拽离开：dragleave事件，④拖拽经过：dragover事件，⑤拖拽释放：drop事件，⑥拖拽结束：dragend事件。
+	• 具体包括:
+		①开始拖拽：dragstart事件;
+		②拖拽进入：dragenter事件;
+		③拖拽离开：dragleave事件;
+		④拖拽经过：dragover事件;
+		⑤拖拽释放：drop事件;
+		⑥拖拽结束：dragend事件。
 
 	• draggable属性：设置元素是否可拖动；
 		- true
