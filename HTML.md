@@ -1,4 +1,5 @@
 ### &lt;head&gt;&lt;/head&gt; 内标签: 
+***
 ##### **&lt;link/&gt; : 放在&lt;head&gt;内，用于链接样式表，引入样式文件。**
 
 	• rel：当前文档与被链接文档的类型。
@@ -46,6 +47,7 @@
 		- all；所有设备；
    
 ### &lt;body&gt;&lt;/body&gt; 内标签：
+***
 ##### &lt;h1&gt; ~ &lt;h6 &gt; : 定义标题、文档的重点内容 &lt;h1&gt;最大，&lt;h6&gt;最小，常用&lt;h1&gt;~&lt;h3&gt;
 
  ><body>
