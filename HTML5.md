@@ -258,14 +258,12 @@
 				
 ##### &lt;svg&gt;&lt;/svg&gt; # SVG入门教程 # SVG基础教程 #
 
-描述：
 	• SVG 指可伸缩矢量图形 (Scalable Vector Graphics)；属于对图像的形状描述，本质上是文本文件，体积较小，且不管放大多少倍都不会失真。
 	• SVG 用于定义用于网络的基于矢量的图形；
 	• SVG 使用 XML 格式定义图形；
 	• SVG 图像在放大或改变尺寸的情况下其图形质量不会有损失；
 	• SVG 是万维网联盟的标准；
 
-优势 :
 	• SVG 图像可通过文本编辑器来创建和修改;
 	• SVG 图像可被搜索、索引、脚本化或压缩;
 	• SVG 是可伸缩的;
@@ -337,7 +335,7 @@
 			Ø Z = closepath
 			Ø 以上所有命令均允许小写字母。大写表示绝对定位，小写表示相对定位。
 		
-##### SVG滤镜：# 滤镜详解 #？？？？？
+##### SVG滤镜：# 滤镜详解 #
 
 		- 简单的 SVG 实例 ：
 	
@@ -579,8 +577,8 @@
 		    </form>
 
 ##### HTML5表单新元素：
-		- Datalist ：规定输入域的选项列表。
-			  <form action="">
+	• Datalist ：规定输入域的选项列表。
+			  ><form action="">
 			        <input type="email" list="email_lisk" placeholder="请输入邮箱地址">
 			        <datalist id="email_list">
 			            <option label="TOP1" value="复仇者联盟4" />
@@ -591,73 +589,73 @@
 			        <input type="submit" value="搜索">
 			    </form>
 			
-		- Keygen ：提供一种验证用户的可靠方法。
-			    <form action="*" method="get">
+	• Keygen ：提供一种验证用户的可靠方法。
+			    ><form action="*" method="get">
 			        Username: <input type="text" name="usr_name" />
 			        Encryption: <keygen name="security" />
 			        <input type="submit" />
 			    </form>
 			
-		- Output ：用于不同类型的输出，比如计算或脚本输出。
+	• Output ：用于不同类型的输出，比如计算或脚本输出。
 		
 ##### HTML5表单<form>新属性：
-		- Autocomplete ：自动完成功能，第二次输入时弹出曾经输入过的选项，适用于 <form> 标签，以及以下类型的 <input> 标签：text, search, url, telephone, email, password, datepickers, range 以及 color。
-			  <form action="*" method="get" autocomplete="on">
+	• Autocomplete ：自动完成功能，第二次输入时弹出曾经输入过的选项，适用于 <form> 标签，以及以下类型的 <input> 标签：text, search, url, telephone, email, password, datepickers, range 以及 color。
+			  ><form action="*" method="get" autocomplete="on">
 			        First name:<input type="text" name="fname" /><br />
 			        Last name: <input type="text" name="lname" /><br />
 			        E-mail: <input type="email" name="email" autocomplete="off" /><br />
 			        <input type="submit" />
 			</form>
 			
-		- Novalidate：规定在提交表单时不应该验证 form 或 input 域,，用于 <form> 以及以下类型的 <input> 标签：text, search, url, telephone, email, password, date pickers, range 以及 color.
-			    <form action="*" method="get" novalidate="novalidate">
+	• Novalidate：规定在提交表单时不应该验证 form 或 input 域,，用于 <form> 以及以下类型的 <input> 标签：text, search, url, telephone, email, password, date pickers, range 以及 color.
+			    ><form action="*" method="get" novalidate="novalidate">
 			        E-mail: <input type="email" name="user_email" />
 			        <input type="submit" />
 			    </form>
 		
 ##### HTML5表单<input>新属性：
-		- Autocomplete ：自动完成功能，第二次输入时弹出曾经输入过的选项，适用于text, search, url, telephone, email, password, datepickers, range 以及 color。
-			  <form action="*" method="get" autocomplete="on">
+	•  Autocomplete ：自动完成功能，第二次输入时弹出曾经输入过的选项，适用于text, search, url, telephone, email, password, datepickers, range 以及 color。
+			  ><form action="*" method="get" autocomplete="on">
 			        First name:<input type="text" name="fname" /><br />
 			        Last name: <input type="text" name="lname" /><br />
 			        E-mail: <input type="email" name="email" autocomplete="off" /><br />
 			        <input type="submit" />
 			</form>
 			
-		- Autofocus ：在页面加载时，域自动地获得焦点，适用于所有 <input> 标签的类型。
-			 <form action="*" method="get">
+	• Autofocus ：在页面加载时，域自动地获得焦点，适用于所有 <input> 标签的类型。
+			 ><form action="*" method="get">
 			        <input type="text" placeholder="用户名" autofocus>
 			        <input type="submit">
 			 </form>
 			
-		- Form ：规定输入域所属的一个或多个表单，适用于所有 <input> 标签的类型，form 属性必须引用所属表单的 id。
-			   <form action="*" method="get" id="user_form">
+	• Form ：规定输入域所属的一个或多个表单，适用于所有 <input> 标签的类型，form 属性必须引用所属表单的 id。
+			   ><form action="*" method="get" id="user_form">
 			        First name:<input type="text" name="fname" />
 			        <input type="submit" />
 			    </form>
 			    <p>下面的输入域在 form 元素之外，但仍然是表单的一部分。</p>
 			    Last name: <input type="text" name="lname" form="user_form" />
 			
-		- form override attributes ：允许您重写 form 元素的某些属性设定，适用于 <input> 标签：submit 和 image。
+	• form override attributes ：允许您重写 form 元素的某些属性设定，适用于 <input> 标签：submit 和 image。
 			Ø formaction - 重写表单的 action 属性
 			Ø formenctype - 重写表单的 enctype 属性
 			Ø formmethod - 重写表单的 method 属性
 			Ø formnovalidate - 重写表单的 novalidate 属性
 			Ø formtarget - 重写表单的 target 属性
-			 <form action="*" method="get">
+			><form action="*" method="get">
 			        <input type="email" placeholder="邮箱地址" name="user_email"><br />
 			        <input type="submit" value="提交"><br/>
 			        <input type="submit" formaction="*" value="再次提交"><br />
 			        <input type="submit" formnovalidate="true" value="再一次提交">
 			</form>
 			
-		- height 和 width ：规定用于 image 类型的 input 标签的图像高度和宽度，只适用于 image 类型的 <input> 标签。
-			    <form action="*" method="get">
+	• height 和 width ：规定用于 image 类型的 input 标签的图像高度和宽度，只适用于 image 类型的 <input> 标签。
+			    ><form action="*" method="get">
 			        <input type="image" src="../images/cat-72-72-190415.ico" width="30" height="30">
 			    </form>
 			
-		- List : 规定输入域的 datalist。datalist 是输入域的选项列表,适用于 <input> 标签：text, search, url, telephone, email, date pickers, number, range 以及 color。
-			   <form action="*" method="get">
+	• List : 规定输入域的 datalist。datalist 是输入域的选项列表,适用于 <input> 标签：text, search, url, telephone, email, date pickers, number, range 以及 color。
+			   ><form action="*" method="get">
 			        <input type="url" list="url_list" name="link" />
 			        <datalist id="url_list">
 			            <option label="W3School" value="http://www.w3school.com.cn" />
@@ -667,32 +665,32 @@
 			        <input type="submit" />
 			    </form>
 			
-		- min, max 和 step : 用于为包含数字或日期的 input 类型规定限定（约束）,适用于 <input> 标签：date pickers、number 以及 range。
-			 <form action="*" method="get">
+	• min, max 和 step : 用于为包含数字或日期的 input 类型规定限定（约束）,适用于 <input> 标签：date pickers、number 以及 range。
+			 ><form action="*" method="get">
 			        <input type="number" name="points" min="1" max="10" step="2">
 			        <input type="submit">
 			    </form>
 			
-		- Multiple : 规定输入域中可选择多个值, 适用于 <input> 标签：email 和 file。
-			    <form action="*" method="get">
+	• Multiple : 规定输入域中可选择多个值, 适用于 <input> 标签：email 和 file。
+			    ><form action="*" method="get">
 			        <input type="file" name="my_file" multiple="multiple">
 			        <input type="submit">
 			    </form>
 			
-		- pattern (regexp): 用于验证 input 域的模式（pattern），适用于 <input> 标签：text, search, url, telephone, email 以及 password。
-			    <form action="*" method="get">
+	• pattern (regexp): 用于验证 input 域的模式（pattern），适用于 <input> 标签：text, search, url, telephone, email 以及 password。
+			    ><form action="*" method="get">
 			        Country code: <input type="text" name="country_code" pattern="[A-z]{3}" title="Three letter country code" />
 			        <input type="submit" />
 			    </form>
 			
-		- Placeholder ：（占位文本）提供一种提示，描述输入域所期待的值，适用于 <input> 标签：text, search, url, telephone, email，password。
-			    <form action="*" method="get">
+	• Placeholder ：（占位文本）提供一种提示，描述输入域所期待的值，适用于 <input> 标签：text, search, url, telephone, email，password。
+			    ><form action="*" method="get">
 			        <input type="search" name="user_search" placeholder="Search W3School" />
 			        <input type="submit" />
 			    </form>
 			
-		- Required ：规定必须在提交之前填写输入域（不能为空），适用于 <input> 标签：text, search, url, telephone, email, password, date pickers, number, checkbox, radio 以及 file。
-			    <form action="*" method="get">
+	• Required ：规定必须在提交之前填写输入域（不能为空），适用于 <input> 标签：text, search, url, telephone, email, password, date pickers, number, checkbox, radio 以及 file。
+			    ><form action="*" method="get">
 			        Name: <input type="text" name="usr_name" required="required" />
 			        <input type="submit" />
 			    </form>
