@@ -38,7 +38,8 @@
 ##### <style></style> : 放在&lt;head&gt;内，定义样式信息；
 
 	• 必填属性：type；指定样式表类型（text/css）；例： <style type="text/css">p{color: green}</style>
-	• 选填属性：media；为样式表规定媒介类型；
+	• 选填属性：
+		- media；为样式表规定媒介类型；
 		- screen；计算机屏幕（默认值）；
 		- print；打印预览模式/打印页；
 		- handheld；手持设备；
@@ -182,7 +183,6 @@
 		- type：多选框,值为checkbox；
 		- name：定义名称；
 		- value：input的值；
-		
 ><form action="" method="get">
         <input type="checkbox" name="sexualorientation" value="man"/>男性
         <input type="checkbox" name="sexualorientation" value="female"/>女性
