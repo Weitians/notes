@@ -119,7 +119,7 @@
 ##### &lt;table&gt;&lt;/table&gt; : 表格标签，&lt;th&gt;为表头、&lt;tr&gt;为行、&lt;td&gt;为列，每一行必须相同列数；
 
 <body>
-    <table border="1">
+    <table border="0">
         <tr>
             <th>姓名</th>
             <th>年龄</th>
@@ -141,6 +141,181 @@
             <td>男</td>
         </tr>
     </table>
+</body>
+
+`colspan:用于横向合并 、rowspan：用于纵向合并，可用在<th><td> `
+
+##### &lt;form&gt;&lt;/form&gt; : 表单标签，用于网页中提交信息；
+
+	• 重要属性：
+		- action：表单提交到何处；
+		- method：提交表单的方法，get or lost；
+		
+	• <form>文本输入框；
+		- type：文本类型,值为text；
+		- name：定义名称；
+		- value：输入框输入值；
+		- placeholder：提示用户信息；
+		- readonly：input输入值为只读，该属性值也为readonly；
+		- disabled：input元素被禁用，该属性值也为disabled；
+		
+<body>
+   <form action=“” method=“get”>
+       <input type="text" name="user_name" value="" readonly="readonly" disabled="disabled" placeholder="请输入用户名">
+    </form>
+</body>
+
+	• <form>单选框；
+		- type：单选按钮,值为radio；
+		- name：定义名称，n选一的单选框name值必须一致；
+		- value：input的值；
+		- checked：默认被选中的；
+		
+<form action="" method="get">
+       男
+       <input type="radio" checked="checked" name="gender" value="man">
+       女
+       <input type="radio"  name="gender" value="female">
+</form>
+
+	• <form>多选框；
+		- type：多选框,值为checkbox；
+		- name：定义名称；
+		- value：input的值；
+		
+<form action="" method="get">
+        <input type="checkbox" name="sexualorientation" value="man"/>男性
+        <input type="checkbox" name="sexualorientation" value="female"/>女性
+        <input type="checkbox" name="sexualorientation" value="bisexuality"/>双性
+    </form>
+
+	• <form>密码框；
+		- type：密码框,值为password；
+		- name：定义名称；
+		- value：input的值；
+		
+<form>
+        <input type="password" name="password" value="" placeholder="请输入密码"/> 
+</form>
+
+	• <form>隐藏域；
+		- type：隐藏域,值为hidden；
+		- name：定义名称；
+		- value：input的值；
+		
+<form>
+        <input type="hidden" name="user_token" value=""> 
+</form>
+
+	• <form>多行文本输入框，<textarea></textarea>；
+		- type：多行文本框,值为textarea；
+		- cols：宽度，n个字符宽度；
+		- rows：高度，n行字读；
+		- autofocus：页面加载后自动获得焦点；
+
+<form action="" method="get">
+        <textarea rows="10" cols="10" name="user_comment" placeholder="添加评论" autofocus="autofocus"></textarea>
+</form>
+
+
+	- <form>下拉选择框，<select></select>；
+		- option：定义下拉框中的选择项；
+			- value：option的值；
+			- selected：值也为selected，初始选项中的选项；
+					
+		<form action="" method="get">
+		        请选择你喜欢的手机品牌
+		        <select name="test1">
+		            <option value="type1">魅族</option>
+		            <option value="type2">小米</option>
+		            <option value="type3">华为</option>
+		            <option value="type4">苹果</option>
+		        </select>
+		</form>
+
+	• <lable></lable>：为input标签定义标注，当点击lable文本时，会触发相应的input控件；
+		- 常用属性：for；值为input标签定义的id，将for绑定到该id上时触发。
+		
+		用法1：
+		<form action="" method="get">
+		         <label for="man">男性</label>
+		        <input type="radio" name="gender" id="man"/>
+		        <label for="female">女性</label>
+		        <input type="radio" name="gender" id="female">
+		 </form>
+		
+		用法2：
+		<!--把input放入lable内可以不用每个选项都设定id-->
+		<form action="" method="get">
+		    <label>读书<input type="checkbox" name="hobby"/></label>
+		    <label>写作<input type="checkbox" name="hobby"></label>
+		</form>
+		
+	• reset：重置按钮；
+		- 常用属性：value，按钮文本显示；
+		
+		<form action="" method="get">
+		        邮箱：<input type="text"  placeholder="请输入邮箱地址" name="email"/><br/>
+		        密码：<input type="password" placeholder="请输入密码" name="password"/><br/>
+		        <input type="reset" value="重置"/>
+		</form>
+	
+	• submit：提交按钮；
+		- 常用属性：value，按钮文本显示；
+	
+		<form action="http://www.baidu.com" method="get">
+		        邮箱：<input type="text"  placeholder="请输入邮箱地址" name="email"/><br/>
+		        密码：<input type="password" placeholder="请输入密码" name="password"/><br/>
+		        <input type="submit" value="登录"/>
+		</form>
+	
+	• <button></button>：定义一个按钮，可放在<form>之外；
+		- 常用属性：
+			- value:按钮提交的值，与submit和reset有区别；
+			- name:规定按钮的名字；
+			- type：按钮类型；button、submit、reset等；
+	
+		<button type="button" name="">提交按钮</button>
+	
+	
+<iframe></iframe>:框架，内嵌另一个文档；
+
+	- 常用属性：
+		- src:内嵌文档的url；
+		- witdth:iframe框架区域的宽度；
+		- height:iframe框架区域的高度；
+
+		<iframe src="http://www.baidu.com" width="500" height="500"></iframe>
+	
+<abbr></abbr>:指示简称或是缩写，为浏览器和拼写检查、搜索引擎提供有用的信息；
+
+	- 属性：title，当鼠标悬停在缩写文本上时，会显示title所写信息；
+	
+<body>
+        <abbr title="wagnyingzhi">WTZ</abbr>是你的爸爸！
+</body>
+
+<center></center>:将文本居中显示；
+
+<body>
+	<center>我是你爸爸！</center>
+<body>
+	
+<strong</strong>:强调部分内容；
+	
+<body>
+	<p>我是你<strong>爸爸！<strong></p>
+<body>
+	
+<dl></dl>:定义列表；<dt></dt>表示定义列表项目标题、<dd></dd>表示定义列表项目描述；
+	
+<body>
+        <dl>
+            <dt>溏（tang）</dt>
+            <dd>意为大便稀稠，呈泥浆状。</dd>
+            <dt>嫑（biao）</dt>
+            <dd>意为不要</dd>
+        </dl>
 </body>
 
 
