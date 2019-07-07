@@ -159,7 +159,7 @@
 		- readonly：input输入值为只读，该属性值也为readonly；
 		- disabled：input元素被禁用，该属性值也为disabled；
 		
-<body>
+><body>
    <form action=“” method=“get”>
        <input type="text" name="user_name" value="" readonly="readonly" disabled="disabled" placeholder="请输入用户名">
     </form>
@@ -171,7 +171,7 @@
 		- value：input的值；
 		- checked：默认被选中的；
 		
-<form action="" method="get">
+><form action="" method="get">
        男
        <input type="radio" checked="checked" name="gender" value="man">
        女
@@ -183,7 +183,7 @@
 		- name：定义名称；
 		- value：input的值；
 		
-<form action="" method="get">
+><form action="" method="get">
         <input type="checkbox" name="sexualorientation" value="man"/>男性
         <input type="checkbox" name="sexualorientation" value="female"/>女性
         <input type="checkbox" name="sexualorientation" value="bisexuality"/>双性
@@ -194,7 +194,7 @@
 		- name：定义名称；
 		- value：input的值；
 		
-<form>
+><form>
         <input type="password" name="password" value="" placeholder="请输入密码"/> 
 </form>
 
@@ -203,7 +203,7 @@
 		- name：定义名称；
 		- value：input的值；
 		
-<form>
+><form>
         <input type="hidden" name="user_token" value=""> 
 </form>
 
@@ -213,7 +213,7 @@
 		- rows：高度，n行字读；
 		- autofocus：页面加载后自动获得焦点；
 
-<form action="" method="get">
+><form action="" method="get">
         <textarea rows="10" cols="10" name="user_comment" placeholder="添加评论" autofocus="autofocus"></textarea>
 </form>
 
@@ -291,25 +291,25 @@
 
 	- 属性：title，当鼠标悬停在缩写文本上时，会显示title所写信息；
 	
-<body>
+><body>
         <abbr title="wagnyingzhi">WTZ</abbr>是你的爸爸！
 </body>
 
 ##### &lt;center&gt;&lt;/center&gt; : 将文本居中显示；
 
-<body>
+><body>
 	<center>我是你爸爸！</center>
 <body>
 	
 ##### &lt;strong&gt;&lt;/strong&gt; : 强调部分内容；
 	
-<body>
+><body>
 	<p>我是你<strong>爸爸！<strong></p>
 <body>
 	
 ##### &lt;dl&gt;&lt;/dl&gt; : 定义列表；&lt;dt&gt;&lt;/dt&gt; : 表示定义列表项目标题、&lt;dd&gt;&lt;/dd&gt表示定义列表项目描述；
 	
-<body>
+><body>
         <dl>
             <dt>溏（tang）</dt>
             <dd>意为大便稀稠，呈泥浆状。</dd>
