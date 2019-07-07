@@ -66,15 +66,15 @@
 			Ø DataTransfer.setData(format, data) ：设置给定类型的数据。如果该类型的数据不存在，则在末尾添加，以使列表中的最后一项成为新格式类型。如果该类型的数据已存在，则在相同位置把现有数据替换掉。
 			Ø DataTransfer.setDragImage(img, xOffset, yOffset) ：设置用于拖动的自定义图像。
 		
-	• preventDefault() 方法：取消事件的默认动作。
+	• preventDefault() 方法：[#取消事件的默认动作#](https://blog.csdn.net/qq_37111953/article/details/78278048)
 		- 为了让拖动操作携带数据，应该为被拖动元素的ondragstart事件指定监听器，在该监听器中让拖动操作可以携带数据。
 		
-		- document对象默认阻止拖动事件，所以被拖动元素到“目的地”时不被接受。为了让document可以接受“放”，应该为document的ondragover事件指定监听器，在监听器中取消document对拖动事件默认行为。[#关于取消事件默认动作#](https://blog.csdn.net/qq_37111953/article/details/78278048)
+		- document对象默认阻止拖动事件，所以被拖动元素到“目的地”时不被接受。为了让document可以接受“放”，应该为document的ondragover事件指定监听器，在监听器中取消document对拖动事件默认行为。
 	
 	• getElementById() 方法：可返回对拥有指定 ID 的第一个对象的引用。
 	• appendChild() 方法向节点添加最后一个子节点，也可用于从一个元素向另一个元素中移动元素。
 	
-		<head>
+		><head>
 		    <style type="text/css">
 		        #div1 {
 		            width: 300px;
