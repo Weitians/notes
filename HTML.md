@@ -278,7 +278,7 @@
 		<button type="button" name="">提交按钮</button>
 	
 	
-<iframe></iframe>:框架，内嵌另一个文档；
+##### &lt;iframe&gt;&lt;/iframe&gt; : 框架，内嵌另一个文档；
 
 	- 常用属性：
 		- src:内嵌文档的url；
@@ -287,7 +287,7 @@
 
 		<iframe src="http://www.baidu.com" width="500" height="500"></iframe>
 	
-<abbr></abbr>:指示简称或是缩写，为浏览器和拼写检查、搜索引擎提供有用的信息；
+##### &lt;abbr&gt;&lt;/abbr&gt; : 指示简称或是缩写，为浏览器和拼写检查、搜索引擎提供有用的信息；
 
 	- 属性：title，当鼠标悬停在缩写文本上时，会显示title所写信息；
 	
@@ -295,19 +295,19 @@
         <abbr title="wagnyingzhi">WTZ</abbr>是你的爸爸！
 </body>
 
-<center></center>:将文本居中显示；
+##### &lt;center&gt;&lt;/center&gt; : 将文本居中显示；
 
 <body>
 	<center>我是你爸爸！</center>
 <body>
 	
-<strong</strong>:强调部分内容；
+##### &lt;strong&gt;&lt;/strong&gt; : 强调部分内容；
 	
 <body>
 	<p>我是你<strong>爸爸！<strong></p>
 <body>
 	
-<dl></dl>:定义列表；<dt></dt>表示定义列表项目标题、<dd></dd>表示定义列表项目描述；
+##### &lt;dl&gt;&lt;/dl&gt; : 定义列表；&lt;dt&gt;&lt;/dt&gt; : 表示定义列表项目标题、&lt;dd&gt;&lt;/dd&gt表示定义列表项目描述；
 	
 <body>
         <dl>
