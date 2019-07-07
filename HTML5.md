@@ -38,7 +38,7 @@
 		        您的浏览器不支持该音频标签。
 		    </audio>
 		
-##### drag and drop：#拖动事件# 即抓取对象以后拖到另一个位置，在 HTML5 中任何元素都能够拖放。
+##### drag and drop：[#拖动事件#](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API#Drag_Events) 即抓取对象以后拖到另一个位置，在 HTML5 中任何元素都能够拖放。
 	• 具体包括 ①开始拖拽：dragstart事件，②拖拽进入：dragenter事件，③拖拽离开：dragleave事件，④拖拽经过：dragover事件，⑤拖拽释放：drop事件，⑥拖拽结束：dragend事件。
 
 	• draggable属性：设置元素是否可拖动；
@@ -63,7 +63,7 @@
 	• preventDefault() 方法：取消事件的默认动作。
 		- 为了让拖动操作携带数据，应该为被拖动元素的ondragstart事件指定监听器，在该监听器中让拖动操作可以携带数据。
 		
-		- document对象默认阻止拖动事件，所以被拖动元素到“目的地”时不被接受。为了让document可以接受“放”，应该为document的ondragover事件指定监听器，在监听器中取消document对拖动事件默认行为。#关于取消事件默认动作#
+		- document对象默认阻止拖动事件，所以被拖动元素到“目的地”时不被接受。为了让document可以接受“放”，应该为document的ondragover事件指定监听器，在监听器中取消document对拖动事件默认行为。[#关于取消事件默认动作#](https://blog.csdn.net/qq_37111953/article/details/78278048)
 	
 	• getElementById() 方法：可返回对拥有指定 ID 的第一个对象的引用。
 	• appendChild() 方法向节点添加最后一个子节点，也可用于从一个元素向另一个元素中移动元素。
@@ -337,7 +337,7 @@
 		
 ##### SVG滤镜：# 滤镜详解 #
 
-		- 简单的 SVG 实例 ：
+	• 简单的 SVG 实例 ：
 	
 			<? xml version="1.0" standalone="no" ?>
 			// XML 声明， standalone 属性规定此 SVG 文件是否是“独立的”，或含有对外部文件的引用。
@@ -421,16 +421,16 @@
 ##### web存储：HTML5 使用 JavaScript 来存储和访问数据。
 
 	• localStorage ：没有时间限制的数据存储；
-		- localStorage.setItem('myCat', 'Tom');
-		- //该语法用于写入 localStorage 项。
-		- let cat = localStorage.getItem('myCat');
-		- //该语法用于读取 localStorage 项。
-		- localStorage.removeItem('myCat');
-		- //该语法用于移除 localStorage 项。
-		- localStorage.clear();
-		- // 移除所有，该语法用于移除所有的 localStorage 项。
+		 localStorage.setItem('myCat', 'Tom');
+		//该语法用于写入 localStorage 项。
+		 let cat = localStorage.getItem('myCat');
+		 //该语法用于读取 localStorage 项。
+		 localStorage.removeItem('myCat');
+		 //该语法用于移除 localStorage 项。
+		 localStorage.clear();
+		 // 移除所有，该语法用于移除所有的 localStorage 项。
 	
-		- 创建和访问 localStorage：
+	•创建和访问 localStorage：
 		    <script>
 		        if (typeof(Storage) !== "undefined") {
 		            // 检查浏览器是否支持；
@@ -443,7 +443,7 @@
 		        }
 		    </script>
 		
-		- 对用户访问页面的次数进行计数：
+	•对用户访问页面的次数进行计数：
 		 if (localStorage.pagecount) {
 		     localStorage.pagecount = Number(localStorage.pagecount) + 1;
 		    } else {
@@ -578,7 +578,7 @@
 
 ##### HTML5表单新元素：
 	• Datalist ：规定输入域的选项列表。
-			  ><form action="">
+			<form action="">
 			        <input type="email" list="email_lisk" placeholder="请输入邮箱地址">
 			        <datalist id="email_list">
 			            <option label="TOP1" value="复仇者联盟4" />
@@ -590,7 +590,7 @@
 			    </form>
 			
 	• Keygen ：提供一种验证用户的可靠方法。
-			    ><form action="*" method="get">
+			    <form action="*" method="get">
 			        Username: <input type="text" name="usr_name" />
 			        Encryption: <keygen name="security" />
 			        <input type="submit" />
@@ -600,7 +600,7 @@
 		
 ##### HTML5表单<form>新属性：
 	• Autocomplete ：自动完成功能，第二次输入时弹出曾经输入过的选项，适用于 <form> 标签，以及以下类型的 <input> 标签：text, search, url, telephone, email, password, datepickers, range 以及 color。
-			  ><form action="*" method="get" autocomplete="on">
+			  <form action="*" method="get" autocomplete="on">
 			        First name:<input type="text" name="fname" /><br />
 			        Last name: <input type="text" name="lname" /><br />
 			        E-mail: <input type="email" name="email" autocomplete="off" /><br />
@@ -608,14 +608,14 @@
 			</form>
 			
 	• Novalidate：规定在提交表单时不应该验证 form 或 input 域,，用于 <form> 以及以下类型的 <input> 标签：text, search, url, telephone, email, password, date pickers, range 以及 color.
-			    ><form action="*" method="get" novalidate="novalidate">
+			    <form action="*" method="get" novalidate="novalidate">
 			        E-mail: <input type="email" name="user_email" />
 			        <input type="submit" />
 			    </form>
 		
 ##### HTML5表单<input>新属性：
 	•  Autocomplete ：自动完成功能，第二次输入时弹出曾经输入过的选项，适用于text, search, url, telephone, email, password, datepickers, range 以及 color。
-			  ><form action="*" method="get" autocomplete="on">
+			  <form action="*" method="get" autocomplete="on">
 			        First name:<input type="text" name="fname" /><br />
 			        Last name: <input type="text" name="lname" /><br />
 			        E-mail: <input type="email" name="email" autocomplete="off" /><br />
@@ -623,13 +623,13 @@
 			</form>
 			
 	• Autofocus ：在页面加载时，域自动地获得焦点，适用于所有 <input> 标签的类型。
-			 ><form action="*" method="get">
+			 <form action="*" method="get">
 			        <input type="text" placeholder="用户名" autofocus>
 			        <input type="submit">
 			 </form>
 			
 	• Form ：规定输入域所属的一个或多个表单，适用于所有 <input> 标签的类型，form 属性必须引用所属表单的 id。
-			   ><form action="*" method="get" id="user_form">
+			   <form action="*" method="get" id="user_form">
 			        First name:<input type="text" name="fname" />
 			        <input type="submit" />
 			    </form>
@@ -650,12 +650,12 @@
 			</form>
 			
 	• height 和 width ：规定用于 image 类型的 input 标签的图像高度和宽度，只适用于 image 类型的 <input> 标签。
-			    ><form action="*" method="get">
+			    <form action="*" method="get">
 			        <input type="image" src="../images/cat-72-72-190415.ico" width="30" height="30">
 			    </form>
 			
 	• List : 规定输入域的 datalist。datalist 是输入域的选项列表,适用于 <input> 标签：text, search, url, telephone, email, date pickers, number, range 以及 color。
-			   ><form action="*" method="get">
+			   <form action="*" method="get">
 			        <input type="url" list="url_list" name="link" />
 			        <datalist id="url_list">
 			            <option label="W3School" value="http://www.w3school.com.cn" />
@@ -666,64 +666,31 @@
 			    </form>
 			
 	• min, max 和 step : 用于为包含数字或日期的 input 类型规定限定（约束）,适用于 <input> 标签：date pickers、number 以及 range。
-			 ><form action="*" method="get">
+			 <form action="*" method="get">
 			        <input type="number" name="points" min="1" max="10" step="2">
 			        <input type="submit">
 			    </form>
 			
 	• Multiple : 规定输入域中可选择多个值, 适用于 <input> 标签：email 和 file。
-			    ><form action="*" method="get">
+			    <form action="*" method="get">
 			        <input type="file" name="my_file" multiple="multiple">
 			        <input type="submit">
 			    </form>
 			
 	• pattern (regexp): 用于验证 input 域的模式（pattern），适用于 <input> 标签：text, search, url, telephone, email 以及 password。
-			    ><form action="*" method="get">
+			    <form action="*" method="get">
 			        Country code: <input type="text" name="country_code" pattern="[A-z]{3}" title="Three letter country code" />
 			        <input type="submit" />
 			    </form>
 			
 	• Placeholder ：（占位文本）提供一种提示，描述输入域所期待的值，适用于 <input> 标签：text, search, url, telephone, email，password。
-			    ><form action="*" method="get">
+			    <form action="*" method="get">
 			        <input type="search" name="user_search" placeholder="Search W3School" />
 			        <input type="submit" />
 			    </form>
 			
 	• Required ：规定必须在提交之前填写输入域（不能为空），适用于 <input> 标签：text, search, url, telephone, email, password, date pickers, number, checkbox, radio 以及 file。
-			    ><form action="*" method="get">
+			    <form action="*" method="get">
 			        Name: <input type="text" name="usr_name" required="required" />
 			        <input type="submit" />
 			    </form>
-			
-	
-			
-		
-		
-
-	
-
-
-
-
-
-
-
-	
-		
-	
-	
-
-
-		
-		
-			
-				
-				
-	
-	
-
-	
-		
-			
-
-
