@@ -178,6 +178,7 @@
 		        con.stroke();
 		//stroke() 方法：会实际地绘制出通过 moveTo() 和 lineTo() 方法定义的路径。默认颜色是黑色。
 		    </script>
+		
 ![canvas][github]
 [github]: https://github.com/Weitians/notes/blob/master/imges/canvas_2.PNG
 		
