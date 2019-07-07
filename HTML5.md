@@ -107,11 +107,9 @@
 		</body>
 
 ##### &lt;canvas&gt;&lt;/canvas&gt;
-	• Canvas 画布是一个矩形区域，您可以控制其每一像素，元素本身是没有绘图能力的，所有的绘制工作必须在 JavaScript 内部完成；
-	
-	• Canvas 实例1：使用指定的颜色来绘制渐变背景：
-		
-		<canvas id="sb" width="200" height="100"></canvas>
+• Canvas 画布是一个矩形区域，您可以控制其每一像素，元素本身是没有绘图能力的，所有的绘制工作必须在 JavaScript 内部完成；
+• Canvas 实例1：使用指定的颜色来绘制渐变背景：
+><canvas id="sb" width="200" height="100"></canvas>
 		
 		Ø 纯色效果：
 		    <script type="text/javascript">
