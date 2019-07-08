@@ -11,13 +11,7 @@
 	• 每个节点都有父节点、除了根（它没有父节点）；
 	• 一个节点可拥有任意数量的子；
 	• 同胞是拥有相同父节点的节点；
-	
-
-
-
-
-
-
+![DOM 节点树](https://github.com/Weitians/notes/blob/master/imges/HTML%20DOM.jpg.gif)
 
 #### DOM 编程接口:
 	• 可通过 JavaScript （以及其他编程语言）对 HTML DOM 进行访问。
