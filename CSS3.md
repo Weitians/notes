@@ -140,7 +140,7 @@
 			        }
 			    </style>
 			
-		- matrix()；把所有 2D 转换方法组合在一起，包含数学函数，允许您：倾斜、缩放、旋转、移动元素。	
+		- matrix()；矩阵方法，把所有 2D 转换方法组合在一起，包含数学函数，允许您：倾斜、缩放、旋转、移动元素。	
 	
 	• transform-origin: x-axis y-axis z-axis ；改变被转换元素的位置，该属性必须与 transform 属性一同使用。
 	
@@ -306,6 +306,7 @@
 		- vertical：用户可调整元素的高度。
 		
 	• box-sizing: content-box|border-box|inherit；允许您以特定的方式定义匹配某个区域的特定元素。
+	
 		- content-box：指定盒子模型为W3C盒子模型，计算width和height时，不包括padding和border。
 		
 ![标准盒模型](https://github.com/Weitians/notes/blob/master/imges/bz.jpg)
