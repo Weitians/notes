@@ -14,7 +14,8 @@
 		- border-radius:10px 15px; 对角设置，①左上角，右下角，②右上角，左下角。
 		- border-radius:10px 15px 5px; ①左上角，②右上角，左下角，③右下角。
 		- border-radius:10px 15px 10px 5px; 顺时针分别设置四个角，①左上角，②右上角，③右下角，④左下角。
-			Ø 例子： border-radius: 2em 1em 4em / 0.5em 3em；
+Ø 例子： border-radius: 2em 1em 4em / 0.5em 3em；
+![](https://github.com/Weitians/notes/blob/master/imges/CSS3_1.PNG)
 
 
 
