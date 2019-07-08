@@ -14,5 +14,11 @@
 #### [HTML DOM][5]
 [5]:https://github.com/Weitians/notes/blob/master/HTML%20DOM.md
 
+#### [Javascript][6]
+[6]:https://github.com/Weitians/notes/blob/master/Javascript.md
+
+#### [Json][7]
+[7]:https://github.com/Weitians/notes/blob/master/Json.md
+
 
 
