@@ -1,5 +1,5 @@
 ### WEB前端相关知识点及资料整理
-#### [CSS][3]  <span style="font-size:12px>cssssss</span>
+#### [CSS][3]  <span style="font-size:12px">cssssss</span>
 [3]:https://github.com/Weitians/notes/blob/master/CSS.md
 ***************
 
