@@ -307,51 +307,12 @@
 		
 	• box-sizing: content-box|border-box|inherit；允许您以特定的方式定义匹配某个区域的特定元素。
 		- content-box：指定盒子模型为W3C盒子模型，计算width和height时，不包括padding和border。
-		- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		
+！[标准盒模型](https://github.com/Weitians/notes/blob/master/imges/bz.jpg)
 
 		- border-box：指定盒子模型为IE盒子模型，计算width和height时，包含padding和border。
 		
-![ie盒子](https://github.com/Weitians/notes/blob/master/imges/20170803220028521.jpg)
-		
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![ie盒子](https://github.com/Weitians/notes/blob/master/imges/ie.jpg)
 
 	• outline-offset: length|inherit ；对轮廓进行偏移，并在边框边缘进行绘制。
 		- length：轮廓与边框边缘的距离。
@@ -367,7 +328,4 @@
 			            outline: 1px solid red;
 			            outline-offset: 15px;
 			        }
-			    </style>
-		
-	
-		
+			    </style>		
