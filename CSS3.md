@@ -14,15 +14,6 @@
 		- border-radius:10px 15px; 对角设置，①左上角，右下角，②右上角，左下角。
 		- border-radius:10px 15px 5px; ①左上角，②右上角，左下角，③右下角。
 		- border-radius:10px 15px 10px 5px; 顺时针分别设置四个角，①左上角，②右上角，③右下角，④左下角。
-Ø 例子： border-radius: 2em 1em 4em / 0.5em 3em；
-![](https://github.com/Weitians/notes/blob/master/imges/CSS3_1.PNG)
-
-
-
-
-
-
-
 	
 	• box-shadow :  h-shadow v-shadow blur spread color inset;
 		- h-shadow : 水平阴影的位置。允许负值;
@@ -31,14 +22,6 @@
 		- spread : 阴影的尺寸;
 		- color : 阴影的颜色;
 		- inset : 将外部阴影 (outset) 改为内部阴影;
-			Ø  例子：box-shadow: 10px 10px 10px 1px #888888;
-			
-
-
-
-
-
-
 			
 	• border-image ：是一个简写属性，用于设置以下属性：
 		- border-image-source ：用在边框的图片的路径。	
@@ -46,7 +29,6 @@
 		- border-image-width：图片边框的宽度。	
 		- border-image-outset ：边框图像区域超出边框的量。	
 		- border-image-repeat ：图像边框是否应平铺(repeat)、铺满(round)或拉伸(stretch-默认值)。
-			Ø  例子： border-image: url(../images/cat-72-72-190415.ico) 14 initial initial stretch;
 
 #### CSS3 背景：
 	• background-size: length|percentage|cover|contain ；规定背景图片的尺寸。
@@ -60,7 +42,6 @@
 		- border-box：背景图像相对于边框盒来定位。
 		- content-box：背景图像相对于内容框来定位。
 
-
 	• background-clip: border-box|padding-box|content-box ；规定背景的绘制区域。
 		- border-box：背景被裁剪到边框盒。
 		- padding-box：背景被裁剪到内边距框。
@@ -72,18 +53,10 @@
 		- v-shadow：垂直阴影的位置，允许负值。
 		- blur：模糊的距离。
 		- color：阴影的颜色。
-			Ø 例子：text-shadow: 2px 2px 1px red;
-		
-		
-		
-		
-		
-		
 		
 	• word-wrap: normal | break-word ；属性允许长单词或 URL 地址换行到下一行。
 		- normal：只在允许的断字点换行（浏览器保持默认处理）。
 		- break-word：在长单词或 URL 地址内部进行换行。
-			Ø 例子：word-wrap: break-word;
 
 #### CSS3 字体：
 	• @font-face ：首先定义字体的名称（比如 myFirstFont），然后指向该字体文件。
@@ -167,17 +140,11 @@
 			        }
 			    </style>
 			
-		- matrix()；[#矩阵详解#] (https://www.zhangxinxu.com/wordpress/2012/06/css3-transform-matrix-%E7%9F%A9%E9%98%B5/) 把所有 2D 转换方法组合在一起，包含数学函数，允许您：倾斜、缩放、旋转、移动元素。
-	 
-	
-	
-	
-	
-	
+		- matrix()；把所有 2D 转换方法组合在一起，包含数学函数，允许您：倾斜、缩放、旋转、移动元素。
+		
+`[#矩阵详解#] (https://www.zhangxinxu.com/wordpress/2012/06/css3-transform-matrix-%E7%9F%A9%E9%98%B5/)`	
 	
 	• transform-origin: x-axis y-axis z-axis ；改变被转换元素的位置，该属性必须与 transform 属性一同使用。
-
-
 
 #### CSS3 3D 转换：# 2d3d转换详细参数 #
 	• transform：使元素改变形状、尺寸和位置的一种效果。
