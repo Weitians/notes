@@ -140,11 +140,11 @@
 			        }
 			    </style>
 			
-		- matrix()；把所有 2D 转换方法组合在一起，包含数学函数，允许您：倾斜、缩放、旋转、移动元素。
-		
-`[#矩阵详解#] (https://www.zhangxinxu.com/wordpress/2012/06/css3-transform-matrix-%E7%9F%A9%E9%98%B5/)`	
+		- matrix()；把所有 2D 转换方法组合在一起，包含数学函数，允许您：倾斜、缩放、旋转、移动元素。	
 	
 	• transform-origin: x-axis y-axis z-axis ；改变被转换元素的位置，该属性必须与 transform 属性一同使用。
+	
+[#矩阵详解#] (https://www.zhangxinxu.com/wordpress/2012/06/css3-transform-matrix-%E7%9F%A9%E9%98%B5/)
 
 #### CSS3 3D 转换：# 2d3d转换详细参数 #
 	• transform：使元素改变形状、尺寸和位置的一种效果。
@@ -330,7 +330,9 @@
 
 
 		- border-box：指定盒子模型为IE盒子模型，计算width和height时，包含padding和border。
-		- 
+		
+![ie盒子](https://github.com/Weitians/notes/blob/master/imges/20170803220028521.jpg)
+		
 
 
 
