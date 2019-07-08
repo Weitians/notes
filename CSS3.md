@@ -144,9 +144,9 @@
 	
 	• transform-origin: x-axis y-axis z-axis ；改变被转换元素的位置，该属性必须与 transform 属性一同使用。
 	
-[#矩阵详解#] (https://www.zhangxinxu.com/wordpress/2012/06/css3-transform-matrix-%E7%9F%A9%E9%98%B5/)
+[#矩阵详解#](https://www.zhangxinxu.com/wordpress/2012/06/css3-transform-matrix-%E7%9F%A9%E9%98%B5/)
 
-#### CSS3 3D 转换：# 2d3d转换详细参数 #
+#### CSS3 3D 转换：[#2d3d转换详细参数#](https://github.com/Weitians/notes/blob/master/imges/bz.jpg)
 	• transform：使元素改变形状、尺寸和位置的一种效果。
 		- rotateX(deg)；元素围绕其 X 轴以给定的度数进行旋转。
 			Ø 例子：div
@@ -308,7 +308,7 @@
 	• box-sizing: content-box|border-box|inherit；允许您以特定的方式定义匹配某个区域的特定元素。
 		- content-box：指定盒子模型为W3C盒子模型，计算width和height时，不包括padding和border。
 		
-！[标准盒模型](https://github.com/Weitians/notes/blob/master/imges/bz.jpg)
+![标准盒模型](https://github.com/Weitians/notes/blob/master/imges/bz.jpg)
 
 		- border-box：指定盒子模型为IE盒子模型，计算width和height时，包含padding和border。
 		
