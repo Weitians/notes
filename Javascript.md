@@ -419,7 +419,7 @@
 		    <p id="demo"></p>
 		</body>
 		
-JavaScript 错误：
+#### JavaScript 错误：
 	• try 语句-测试代码块的错误，允许我们定义在执行时进行错误测试的代码块。
 	• catch 语句-处理错误，允许我们定义当 try 代码块发生错误时，所执行的代码块。
 		 <script>
