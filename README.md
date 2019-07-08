@@ -5,6 +5,8 @@
 ***
 #### [CSS3][4]
 [4]:https://github.com/Weitians/notes/blob/master/CSS3.md
+CSS3 是层叠样式表（Cascading Style Sheets）语言的最新版本，旨在扩展CSS2.1,它带来了许多期待已久的新特性， 例如圆角、阴影、gradients(渐变) 、transitions(过渡) 与 animations(动画) 。以及新的布局方式，如 multi-columns 、 flexible box 与 grid layouts。实验性特性以浏览器引擎为前缀（vendor-prefixed），应避免在生产环境中使用，或极其谨慎地使用，因为将来它们的语法和语义都有可能被更改。
+***
 
 #### [HTML][1]
 [1]:https://github.com/Weitians/notes/blob/master/HTML.md
