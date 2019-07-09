@@ -38,4 +38,11 @@ JSON(JavaScript Object Notation, JS 对象简谱) 是一种轻量级的数据交
 AJAX = Asynchronous JavaScript and XML（异步的 JavaScript 和 XML），它不是新的编程语言，而是一种使用现有标准的新方法，最大的优点是在不重新加载整个页面的情况下，可以与服务器交换数据并更新部分网页内容，AJAX 不需要任何浏览器插件，但需要用户允许JavaScript在浏览器上执行
 ***
 
+####[Promise][9]
+[9]:https://github.com/Weitians/notes/blob/master/Promise.md
+Promise 是异步编程的一种解决方案，比传统的解决方案——回调函数和事件——更合理和更强大。它由社区最早提出和实现，ES6 将其写进了语言标准，统一了用法，原生提供了Promise对象。
+***
+
+
+
 
