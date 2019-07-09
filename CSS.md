@@ -28,12 +28,14 @@
 
 	• 元素选择器（标签选择器）；
 		- 选择某一种标签，该标签都会更改样式；语法：标签名：{}；
+		```css
 		<style type="text/css">
 		            div{
 		                font-size: 40px;
 		                background-color: bisque;
 		            }
 		</style>
+		```
 	• 类选择器；要先在标签中设置属性为： class=" *** ”例：<div class="test1">hahaha</div>;
 		- 语法：.类名{}；
 		<head>
