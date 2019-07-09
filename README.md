@@ -1,7 +1,7 @@
 #### WEB前端相关知识点及资料整理
 ***
 
-| [HTML][1] | [HTML5][2] | [CSS][3] | [CSS3][4] | [DOM][5] | [Javascript][6] | [Json][7] | [Ajax][8] | [Promise][9] | [Jquery][10] | [Http][11] | [
+| [HTML][1] | [HTML5][2] | [CSS][3] | [CSS3][4] | [DOM][5] | [Javascript][6] | [Json][7] | [Ajax][8] | [Promise][9] | [Jquery][10] | [Http][11] | [VUE][12] |
 
 ***
 [1]:https://github.com/Weitians/notes/blob/master/HTML.md
@@ -15,3 +15,4 @@
 [9]:https://github.com/Weitians/notes/blob/master/Promise.md
 [10]:https://github.com/Weitians/notes/blob/master/Jquery.md
 [11]:https://github.com/Weitians/notes/blob/master/Http.md
+[12]:https://github.com/Weitians/notes/blob/master/vue.md
