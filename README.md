@@ -32,3 +32,7 @@ JavaScript是一种高级的、解释型的编程语言。JavaScript是一门基
 [7]:https://github.com/Weitians/notes/blob/master/Json.md
 JSON(JavaScript Object Notation, JS 对象简谱) 是一种轻量级的数据交换格式。它基于 ECMAScript (欧洲计算机协会制定的js规范)的一个子集，采用完全独立于编程语言的文本格式来存储和表示数据。简洁和清晰的层次结构使得 JSON 成为理想的数据交换语言。 易于人阅读和编写，同时也易于机器解析和生成，并有效地提升网络传输效率。
 ***
+
+#### [Ajax][8]
+[8]:https://github.com/Weitians/notes/blob/master/Ajax.md
+AJAX = Asynchronous JavaScript and XML（异步的 JavaScript 和 XML），它不是新的编程语言，而是一种使用现有标准的新方法，最大的优点是在不重新加载整个页面的情况下，可以与服务器交换数据并更新部分网页内容，AJAX 不需要任何浏览器插件，但需要用户允许JavaScript在浏览器上执行
