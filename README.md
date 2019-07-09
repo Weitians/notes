@@ -1,7 +1,7 @@
 ### WEB前端相关知识点及资料整理
 #### 目录：
 ***
-HTML HTML5 CSS CSS3][3] 
+HTML HTML5 CSS [CSS3][3] 
 [3]:https://github.com/Weitians/notes/blob/master/CSS.md 
 
 
