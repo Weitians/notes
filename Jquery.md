@@ -1,4 +1,4 @@
-jquery : Write Less, Do More
+#### jquery : Write Less, Do More
 	• 基础语法： $(selector).action()
 		- 美元符号定义 jQuery
 		- 选择符（selector）"查询"和"查找" HTML 元素
