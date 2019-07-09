@@ -1,9 +1,10 @@
-#### 基础语法： $(selector).action()
+jquery : Write Less, Do More
+	• 基础语法： $(selector).action()
 		- 美元符号定义 jQuery
 		- 选择符（selector）"查询"和"查找" HTML 元素
 		- jQuery 的 action() 执行对元素的操作。
 		
-#### 文档就绪事件：所有 jQuery 函数都位于一个 document ready 函数中。
+	• 文档就绪事件：所有 jQuery 函数都位于一个 document ready 函数中。
 		$(document).ready(function(){
 		 
 		   // 开始写 jQuery 代码...
