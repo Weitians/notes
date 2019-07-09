@@ -1,20 +1,20 @@
-#### AJAX（异步 JavaScript 和 XML）：是一种在无需重新加载整个网页的情况下，能够更新部分网页的技术。
+### AJAX（异步 JavaScript 和 XML）：是一种在无需重新加载整个网页的情况下，能够更新部分网页的技术。
 #### XMLHttpRequest对象：用于在后台与服务器交换数据，所有现代浏览器均支持该对象（IE5 和 IE6 使用 ActiveXObject）。
 	
 #### 创建XMLHttpRequest对象：
-	. variable=new XMLHttpRequest(); 现代浏览器（IE7+、Firefox、Chrome、Safari 以及 Opera）均内建 XMLHttpRequest 对象。
-	. variable=new ActiveXObject("Microsoft.XMLHTTP"); 老版本的 Internet Explorer （IE5 和 IE6）使用 ActiveX 对象。
-		.判断浏览器是否支持：
-			.var xmlhttp;
-			.if (window.XMLHttpRequest) {
-			.//  IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
-			. xmlhttp = new XMLHttpRequest();
-			.} else {
-			.// IE6, IE5 浏览器执行代码
-			. xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-			.}
+		- variable=new XMLHttpRequest(); 现代浏览器（IE7+、Firefox、Chrome、Safari 以及 Opera）均内建 XMLHttpRequest 对象。
+		- variable=new ActiveXObject("Microsoft.XMLHTTP"); 老版本的 Internet Explorer （IE5 和 IE6）使用 ActiveX 对象。
+				Ø 判断浏览器是否支持：
+				 var xmlhttp;
+				        if (window.XMLHttpRequest) {
+				            //  IE7+, Firefox, Chrome, Opera, Safari 浏览器执行代码
+				            xmlhttp = new XMLHttpRequest();
+				        } else {
+				            // IE6, IE5 浏览器执行代码
+				            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+				        }
 				
-	• 向服务器发送请求：使用 XMLHttpRequest 对象的 open() 和 send() 方法：
+#### 向服务器发送请求：使用 XMLHttpRequest 对象的 open() 和 send() 方法：
 		- xmlhttp.open("GET","ajax_info.txt",true)；
 			§ open(method,url,async)：规定请求的类型、URL 以及是否异步处理请求。
 				Ø method：请求的类型；GET 或 POST；
@@ -47,7 +47,7 @@
 			§ send(string)：将请求发送到服务器。
 				Ø string：仅用于 POST 请求；
 				
-	• 服务器响应：如需获得来自服务器的响应，请使用 XMLHttpRequest 对象的 responseText 或 responseXML 属性。
+#### 服务器响应：如需获得来自服务器的响应，请使用 XMLHttpRequest 对象的 responseText 或 responseXML 属性。
 		- responseText：获得字符串形式的响应数据；如果来自服务器的响应并非 XML，使用 responseText 属性。
 		- responseXML：获得 XML 形式的响应数据；如果来自服务器的响应是 XML，且需要作为 XML 对象解析，使用 responseXML 属性：
 			    function loadXMLDoc() {
@@ -75,7 +75,7 @@
 			            xmlhttp.send();
 			        }
 			
-	• onreadystatechange 事件：onreadystatechange	存储函数（或函数名），每当 readyState 属性改变时，就会调用该函数。
+#### onreadystatechange 事件：onreadystatechange	存储函数（或函数名），每当 readyState 属性改变时，就会调用该函数。
 		- readyState：存有 XMLHttpRequest 的状态。从 0 到 4 发生变化。
 			0: 请求未初始化
 			1: 服务器连接已建立
@@ -92,7 +92,7 @@
 				                }
 				            }
 				
-	• 回调函数实例：
+#### 回调函数实例：
 		<head>
 		    <script>
 		        var xmlhttp;
@@ -121,7 +121,7 @@
 		    </div>
 		    <button type="button" onclick="myFunction()">修改内容</button>
 		</body>
-	• AJAX ASP / PHP实例：
+#### AJAX ASP / PHP实例：
 		<head>
 		    <meta charset="utf-8">
 		    <script>
@@ -158,7 +158,7 @@
 		    </form>
 		    <p>提示信息: <span id="txtHint"></span></p>
 		</body>
-	• AJAX Database（数据库） 实例：
+#### AJAX Database（数据库） 实例：
 		<head>
 		    <meta charset="utf-8">
 		    <script>
@@ -204,7 +204,7 @@
 		//调用showCustomer()函数
 		    <div id="txtHint">客户信息将显示在这...</div>
 		</body>
-	• AJAX XML 实例：
+#### AJAX XML 实例：
 		function loadXMLDoc() {
 		  var xhttp = new XMLHttpRequest();
 		  xhttp.onreadystatechange = function() {
