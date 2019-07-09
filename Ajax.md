@@ -1,4 +1,3 @@
-#### AJAX（异步 JavaScript 和 XML）：是一种在无需重新加载整个网页的情况下，能够更新部分网页的技术。
 #### XMLHttpRequest对象：用于在后台与服务器交换数据，所有现代浏览器均支持该对象（IE5 和 IE6 使用 ActiveXObject）。
 	
 #### 创建XMLHttpRequest对象：
@@ -15,10 +14,10 @@
 				        }
 				
 #### 向服务器发送请求：使用 XMLHttpRequest 对象的 open() 和 send() 方法：
-		- xmlhttp.open("GET","ajax_info.txt",true)；
-			§ open(method,url,async)：规定请求的类型、URL 以及是否异步处理请求。
-				Ø method：请求的类型；GET 或 POST；
-					ü 与 POST 相比，GET 更简单也更快，并且在大部分情况下都能用。然而，在以下情况中，请使用 POST 请求；
+		 xmlhttp.open("GET","ajax_info.txt",true)；
+			open(method,url,async)：规定请求的类型、URL 以及是否异步处理请求。
+				 method：请求的类型；GET 或 POST；
+					与 POST 相比，GET 更简单也更快，并且在大部分情况下都能用。然而，在以下情况中，请使用 POST 请求；
 						v 无法使用缓存文件（更新服务器上的文件或数据库）；
 						v 向服务器发送大量数据（POST 没有数据量限制）；
 						v 发送包含未知字符的用户输入时，POST 比 GET 更稳定也更可靠；
