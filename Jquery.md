@@ -19,7 +19,6 @@
 		
 #### jQuery 选择器：
 		- 元素选择器：jQuery 元素选择器基于元素名选取元素。
-		```
 			<script>
 			        $(function() {
 			            $("button").click(function() {
@@ -35,7 +34,6 @@
 			    <p>这是第二个段落。</p>
 			    <button>点我</button>
 			</body>
-		```
 			
 		- #id 选择器 : 通过 HTML 元素的 id 属性选取指定的元素。
 			<script>
