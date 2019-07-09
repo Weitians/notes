@@ -1,4 +1,3 @@
-#### jquery : Write Less, Do More
 #### 基础语法： $(selector).action()
 		- 美元符号定义 jQuery
 		- 选择符（selector）"查询"和"查找" HTML 元素
@@ -18,7 +17,7 @@
 		 
 		});
 		
-#### jQuery 选择器：
+	• jQuery 选择器：
 		- 元素选择器：jQuery 元素选择器基于元素名选取元素。
 			<script>
 			        $(function() {
@@ -84,7 +83,7 @@
 			$("tr:even")：选取偶数位置的 <tr> 元素。
 			$("tr:odd")：选取奇数位置的 <tr> 元素。
 			
-#### jQuery 事件：页面对不同访问者的响应叫做事件。
+	• jQuery 事件：页面对不同访问者的响应叫做事件。
 		- $(document).ready()：允许我们在文档完全加载完后执行函数。
 		- click()：当按钮点击事件被触发时会调用一个函数。
 		- dblclick()：当双击元素时，会发生 dblclick 事件。
@@ -96,7 +95,7 @@
 		- focus()：当元素获得焦点时，发生 focus 事件。
 		- blur()：当元素失去焦点时，发生 blur 事件。
 		
-#### jQuery 效果：
+	• jQuery 效果：
 		- 隐藏和显示：
 			▪ $(selector).hide(speed,callback)；
 			▪ $(selector).show(speed,callback)；
@@ -319,7 +318,7 @@
 			        });
 			</script>
 		
-#### jQuery DOM 操作：
+	• jQuery DOM 操作：
 		- 获得内容：
 			▪ text() - 设置或返回所选元素的文本内容：
 			▪ html() - 设置或返回所选元素的内容（包括 HTML 标记）：
@@ -397,7 +396,7 @@
 				        });
 				</script>
 				
-#### jQuery - 添加元素：
+	• jQuery - 添加元素：
 		- append() - 在被选元素的结尾插入内容：
 			<script>
 			        $(document).ready(function() {
@@ -455,7 +454,7 @@
 			        }
 			</script>
 			
-#### jQuery - 删除元素：
+	• jQuery - 删除元素：
 		- remove() - 删除被选元素（及其子元素）：
 			 <script>
 			        $(document).ready(function() {
@@ -483,7 +482,7 @@
 			        });
 			</script>
 			
-#### jQuery - 获取并设置 CSS 类：
+	• jQuery - 获取并设置 CSS 类：
 		- addClass() - 向被选元素添加一个或多个类：
 			    <script>
 			        $(document).ready(function() {
@@ -553,7 +552,7 @@
 			        });
 			</script>
 			
-#### jQuery 尺寸：
+	• jQuery 尺寸：
 		- width()：
 		- height()：
 			 <script>
@@ -586,7 +585,7 @@
 			        });
 			    </script>
 			
-#### jQuery 遍历：用于根据其相对于其他元素的关系来"查找"（或选取）HTML 元素。
+	• jQuery 遍历：用于根据其相对于其他元素的关系来"查找"（或选取）HTML 元素。
 		- 向上遍历 DOM 树：
 			▪ parent()：返回被选元素的直接父元素，该方法只会向上一级对 DOM 树进行遍历。
 				<script>
@@ -720,7 +719,7 @@
 				        });
 				    </script>
 				
-#### jQuery - AJAX ：
+	• jQuery - AJAX ：
 		- jQuery load() ：$(selector).load(URL,data,callback); 从服务器加载数据，并把返回的数据放入被选元素中。
 			▪ URL 参数规定您希望加载的 URL；
 			▪ 可选的 data 参数规定与请求一同发送的查询字符串键/值对集合；
@@ -767,7 +766,7 @@
 			        });
 			    </script>
 			
-#### jQuery - noConflict() 方法：会释放对 $ 标识符的控制，解决与其他框架的冲突。
+	• jQuery - noConflict() 方法：会释放对 $ 标识符的控制，解决与其他框架的冲突。
 		- 创建自己的简写：
 			    <script>
 			        var nb = $.noConflict();
@@ -786,4 +785,4 @@
 			                $("p").text("noob");
 			            });
 			        });
-			</script>		
+			</script>
