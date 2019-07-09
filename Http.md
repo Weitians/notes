@@ -1,4 +1,4 @@
-### HTTP协议（HyperText Transfer Protocol，超文本传输协议）是因特网上应用最为广泛的一种网络传输协议，所有的WWW文件都必须遵守这个标准。HTTP是一个基于TCP/IP通信协议来传递数据（HTML 文件, 图片文件, 查询结果等）。
+#### HTTP协议（HyperText Transfer Protocol，超文本传输协议）是因特网上应用最为广泛的一种网络传输协议，所有的WWW文件都必须遵守这个标准。HTTP是一个基于TCP/IP通信协议来传递数据（HTML 文件, 图片文件, 查询结果等）。
 
 #### HTTP 工作原理：HTTP协议工作于客户端-服务端架构上。浏览器作为HTTP客户端通过URL向HTTP服务端即WEB服务器发送所有请求。
 		- Web服务器：Apache服务器，IIS服务器（Internet Information Services）等。
@@ -119,5 +119,4 @@
 			504	Gateway Time-out	充当网关或代理的服务器，未及时从远端服务器获取请求；
 			505	HTTP Version not supported	服务器不支持请求的HTTP协议的版本，无法完成处理；
 			
-#### HTTP content-type：内容类型，指网页中存在的Content-Type，用于定义网络文件的类型和网页的编码，决定浏览器将以什么形式、什么编码读取这个文件。
-		- 详情：[详细列表] (https://www.runoob.com/http/http-content-type.html)
+#### HTTP content-type：内容类型，指网页中存在的Content-Type，用于定义网络文件的类型和网页的编码，决定浏览器将以什么形式、什么编码读取这个文件。详情：[详细列表] (https://www.runoob.com/http/http-content-type.html)
