@@ -45,7 +45,7 @@ Promise 是异步编程的一种解决方案，比传统的解决方案——回
 
 #### [Jquery][10]
 [10]:https://github.com/Weitians/notes/blob/master/Jquery.md
-jQuery是一个快速，小巧，功能丰富的JavaScript库。它通过易于使用的API在大量浏览器中运行，使得HTML文档遍历和操作，事件处理，动画和Ajax变得更加简单。通过多功能性和可扩展性的结合，jQuery改变了数百万人编写JavaScript的方式。
+jQuery是一个功能丰富的JavaScript库。它通过易于使用的API在大量浏览器中运行，使得HTML文档遍历和操作，事件处理，动画和Ajax变得更加简单。通过多功能性和可扩展性的结合，jQuery改变了数百万人编写JavaScript的方式。
 ***
 
 
