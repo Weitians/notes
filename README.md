@@ -1,7 +1,7 @@
 #### WEB前端相关知识点及资料整理
 ***
 
-[HTML][1] [HTML5][2] [CSS][3] [CSS3][4] [DOM][5] [Javascript][6] [Json][7] [Ajax][8] [Promise][9] [Jquery][10]
+[HTML][1]  [HTML5][2]  [CSS][3]  [CSS3][4]  [DOM][5]  [Javascript][6]  [Json][7]  [Ajax][8]  [Promise][9]  [Jquery][10]
 
 ***
 [1]:https://github.com/Weitians/notes/blob/master/HTML.md
