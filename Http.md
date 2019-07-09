@@ -119,4 +119,6 @@
 			504	Gateway Time-out	充当网关或代理的服务器，未及时从远端服务器获取请求；
 			505	HTTP Version not supported	服务器不支持请求的HTTP协议的版本，无法完成处理；
 			
-#### HTTP content-type：内容类型，指网页中存在的Content-Type，用于定义网络文件的类型和网页的编码，决定浏览器将以什么形式、什么编码读取这个文件。详情：[详细列表] (https://www.runoob.com/http/http-content-type.html)
+#### HTTP content-type：内容类型，指网页中存在的Content-Type，用于定义网络文件的类型和网页的编码，决定浏览器将以什么形式、什么编码读取这个文件。
+
+详情：[详细列表] (https://www.runoob.com/http/http-content-type.html)
