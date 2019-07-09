@@ -6,19 +6,9 @@
 
 
 ***
-#### [CSS][3] 
 [3]:https://github.com/Weitians/notes/blob/master/CSS.md
-层叠样式表(英文全称：Cascading Style Sheets)是一种用来表现HTML（标准通用标记语言的一个应用）或XML（标准通用标记语言的一个子集）等文件样式的计算机语言。CSS不仅可以静态地修饰网页，还可以配合各种脚本语言动态地对网页各元素进行格式化。
-***
-#### [CSS3][4]
 [4]:https://github.com/Weitians/notes/blob/master/CSS3.md
-CSS3 是层叠样式表（Cascading Style Sheets）语言的最新版本，旨在扩展CSS2.1,它带来了许多期待已久的新特性， 例如圆角、阴影、gradients(渐变) 、transitions(过渡) 与 animations(动画) 。以及新的布局方式，如 multi-columns 、 flexible box 与 grid layouts。实验性特性以浏览器引擎为前缀（vendor-prefixed），应避免在生产环境中使用，或极其谨慎地使用，因为将来它们的语法和语义都有可能被更改。
-***
-
-#### [HTML][1]
 [1]:https://github.com/Weitians/notes/blob/master/HTML.md
-超文本标记语言(Hyper Text Markup Language)，标准通用标记语言下的一个应用。HTML 不是一种编程语言，而是一种标记语言 (markup language)，是网页制作所必备的。“超文本”就是指页面内可以包含图片、链接，甚至音乐、程序等非文字元素。超文本标记语言(或超文本标签语言)的结构包括“头”部分、和“主体”部分，其中“头”部提供关于网页的信息，“主体”部分提供网页的具体内容。
-***
 
 #### [HTML5][2]
 [2]:https://github.com/Weitians/notes/blob/master/HTML5.md
