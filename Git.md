@@ -67,12 +67,10 @@
 	
 #### 版本库（Repository) ：
 	- 工作区内隐藏的目录 .git 
-		- Git的版本库里存了很多东西，其中最重要的就是称为stage（或者叫index）的暂存区，还有Git为我们自动创建的第一个分支master，以及指向master的一个指针叫HEAD。
+ Git的版本库里存了很多东西，其中最重要的就是称为stage（或者叫index）的暂存区，还有Git为我们自动创建的第一个分支master，以及指向master的一个指针叫HEAD。
 ![Git](https://github.com/Weitians/notes/blob/master/imges/Git_1.jpg)
-		a. 第一步是用git add把文件添加进去，实际上就是把文件修改添加到暂存区；
+第一步是用git add把文件添加进去，实际上就是把文件修改添加到暂存区；
 ![Git](https://github.com/Weitians/notes/blob/master/imges/Git_2.jpg)	
-		b. 第二步是用git commit提交更改，实际上就是把暂存区的所有内容提交到当前分支。
+第二步是用git commit提交更改，实际上就是把暂存区的所有内容提交到当前分支。
 ![Git](https://github.com/Weitians/notes/blob/master/imges/Git_32.jpg)
-
-		- 因为我们创建Git版本库时，Git自动为我们创建了唯一一个master分支，所以，现在，git commit就是往master分支上提交更改，你可以简单理解为，需要提交的文件修改通通放到暂存区，然后，一次性提交暂存区的所有修改。
-		
+因为我们创建Git版本库时，Git自动为我们创建了唯一一个master分支，所以，现在，git commit就是往master分支上提交更改，你可以简单理解为，需要提交的文件修改通通放到暂存区，然后，一次性提交暂存区的所有修改。
