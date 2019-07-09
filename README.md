@@ -1,7 +1,7 @@
 ### WEB前端相关知识点及资料整理
 #### 目录：
 ***
-HTML HTML5 CSS [CSS3][4] 
+[HTML][1] [HTML5][2] [CSS][3] [CSS3][4] 
 
 
 
