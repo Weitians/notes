@@ -16,11 +16,11 @@
 #### 向服务器发送请求：使用 XMLHttpRequest 对象的 open() 和 send() 方法：
 		 xmlhttp.open("GET","ajax_info.txt",true)；
 			open(method,url,async)：规定请求的类型、URL 以及是否异步处理请求。
-				 method：请求的类型；GET 或 POST；
-					与 POST 相比，GET 更简单也更快，并且在大部分情况下都能用。然而，在以下情况中，请使用 POST 请求；
-						v 无法使用缓存文件（更新服务器上的文件或数据库）；
-						v 向服务器发送大量数据（POST 没有数据量限制）；
-						v 发送包含未知字符的用户输入时，POST 比 GET 更稳定也更可靠；
+				Ø method：请求的类型；GET 或 POST；
+					ü 与 POST 相比，GET 更简单也更快，并且在大部分情况下都能用。然而，在以下情况中，请使用 POST 请求；
+						1.无法使用缓存文件（更新服务器上的文件或数据库）；
+						2. 向服务器发送大量数据（POST 没有数据量限制）；
+						3. 发送包含未知字符的用户输入时，POST 比 GET 更稳定也更可靠；
 							xmlhttp.open("GET","/try/ajax/demo_get.php",true);
 							xmlhttp.send();
 							xmlhttp.open("POST","/try/ajax/demo_post.php",true);
@@ -120,6 +120,7 @@
 		    </div>
 		    <button type="button" onclick="myFunction()">修改内容</button>
 		</body>
+		
 #### AJAX ASP / PHP实例：
 		<head>
 		    <meta charset="utf-8">
@@ -157,6 +158,7 @@
 		    </form>
 		    <p>提示信息: <span id="txtHint"></span></p>
 		</body>
+		
 #### AJAX Database（数据库） 实例：
 		<head>
 		    <meta charset="utf-8">
@@ -203,6 +205,7 @@
 		//调用showCustomer()函数
 		    <div id="txtHint">客户信息将显示在这...</div>
 		</body>
+		
 #### AJAX XML 实例：
 		function loadXMLDoc() {
 		  var xhttp = new XMLHttpRequest();
@@ -228,4 +231,3 @@
 		  }
 		  document.getElementById("demo").innerHTML = table;
 		}
-		
